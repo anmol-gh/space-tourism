@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap");
+
+.navbar-container {
+	height: 15vh;
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	box-sizing: border-box;
+}
+
+/* To be Changed */
+.navbar-half:nth-child(1) {
+	align-content: end;
+}
+
+.navbar-half {
+	margin-top: 5vh;
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+}
+
+hr {
+	border: 0;
+	width: 70%;
+	background-color: #ffffff;
+	height: 1px;
+}
+
+#navbar-btn-active {
+	border-bottom: #ffffff 2px solid;
+}
+
+.navbar-half button {
+	display: block;
+	background: none;
+	color: #ffffff;
+	border: none;
+	cursor: pointer;
+	height: 100%;
+	font-family: "Barlow";
+	font-weight: 500;
+	font-size: 16px;
+	white-space: nowrap;
+	box-sizing: border-box;
+
+	/* border-bottom: #ffffff00 2px solid; */
+}
+
+.navbar-half button:hover {
+	border-bottom: #ffffff 2px solid;
+	transition: 50ms;
+}
+
+.navbar-half.bg-grey {
+	background-color: rgba(141, 141, 141, 0.308);
+}
