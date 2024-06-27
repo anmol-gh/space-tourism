@@ -3,6 +3,30 @@
 	width: 100vw;
 }
 
+.crew-title {
+	font-family: "Bellefair";
+	font-size: 24px;
+	color: grey;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom: 2vh;
+}
+
+.crew-name {
+	font-family: "Bellefair";
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 2vh;
+}
+
+.crew-desc {
+	font-family: "Barlow";
+	font-size: 16px;
+	font-weight: 200;
+	padding-bottom: 2vh;
+}
+
 .crew-para {
 	font-family: "Barlow";
 	box-sizing: border-box;
@@ -15,24 +39,54 @@
 
 .crew-para-span {
 	color: grey;
-    font-weight: 800;
-    transition: ease-in-out;
-    padding-right : 5px;
+	font-weight: 800;
+	transition: ease-in-out;
+	padding-right: 5px;
 }
 
 .crew-card-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    height : 70vh;
-    width : 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 70vh;
+	width: 100%;
 }
 
 .crew-card {
 	width: 50%;
 	box-sizing: border-box;
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+.crew-card-details {
+	width: 30vw;
+	height: 30vw;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+}
+
+.crew-buttons {
+	padding-top: 5rem;
+}
+.crew-btn {
+	cursor: pointer;
+	padding: 5px;
+	border-radius: 50%;
+	margin: 0 2rem 0 0rem;
+	background-color: grey;
+}
+
+.crew-btn:hover {
+	background-color: white;
+	transition: 500ms;
+}
+.crew-card-img {
+	animation: transitionIN 0.75s;
+	margin-bottom: 3rem;
+	max-height: 100%;
+	max-width: auto;
 }

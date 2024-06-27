@@ -12,38 +12,47 @@ const Crew = () => {
 			</p>
 			<div className='crew-card-container'>
 				<div className='crew-card'>
-					<h3 className='crew-title'> {{ crewData }.crewData[crew].title}</h3>
-					<h1 className='crew-name'>{{ crewData }.crewData[crew].name}</h1>
-					<p className='crew-desc'>{{ crewData }.crewData[crew].description}</p>
-					<div className='cre-buttons'>
-						<button
-							className='crew-btn'
-							onClick={() => {
-								setCrew("Commander");
-							}}
-						></button>
-						<button
-							className='crew-btn'
-							onClick={() => {
-								setCrew("Specialist");
-							}}
-						></button>
-						<button
-							className='crew-btn'
-							onClick={() => {
-								setCrew("Pilot");
-							}}
-						></button>
-						<button
-							className='crew-btn'
-							onClick={() => {
-								setCrew("Engineer");
-							}}
-						></button>
+					<div className='crew-card-details'>
+						<h3 className='crew-title'> {{ crewData }.crewData[crew].title}</h3>
+						<h1 className='crew-name'>{{ crewData }.crewData[crew].name}</h1>
+						<p className='crew-desc'>
+							{{ crewData }.crewData[crew].description}
+						</p>
+						<div className='crew-buttons'>
+							<button
+								className='crew-btn'
+								onClick={() => {
+									setCrew("Commander");
+								}}
+							></button>
+							<button
+								className='crew-btn'
+								onClick={() => {
+									setCrew("Specialist");
+								}}
+							></button>
+							<button
+								className='crew-btn'
+								onClick={() => {
+									setCrew("Pilot");
+								}}
+							></button>
+							<button
+								className='crew-btn'
+								onClick={() => {
+									setCrew("Engineer");
+								}}
+							></button>
+						</div>
 					</div>
 				</div>
-				<div className='crew-card'></div>
-				<img src={{ crewData }.crewData[crew].img} alt={"Image of " + crew} />
+				<div className='crew-card'>
+					<img
+						className='crew-card-img'
+						src={{ crewData }.crewData[crew].image}
+						alt={"Image of " + crew}
+					/>
+				</div>
 			</div>
 		</div>
 	);
