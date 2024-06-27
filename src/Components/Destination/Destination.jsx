@@ -1,30 +1,21 @@
 import React from "react";
 import "./Destination.css";
-import Moon from "../../Assets/destination/image-moon.png";
-import Mars from "../../Assets/destination/image-mars.png";
-import Europa from "../../Assets/destination/image-europa.png";
-import Titan from "../../Assets/destination/image-titan.png";
 import data from "./DestinationData";
 import { useState } from "react";
 
 const Destination = () => {
 	const [place, setPlace] = useState("Moon");
 
-	// const addActive = () => {
-	// 	document.getElementById(place).classList.add("active");
-	// 	console.log(place);
-	// };
-
 	return (
 		<div className='destination-container'>
 			<p className='destination-para'>
-				<span> 01</span> PICK YOUR DESTINATION
+				<span className='destination-para-span'> 01</span> PICK YOUR DESTINATION
 			</p>
 			<div className='destination-card-container'>
 				<div className='destination-card'>
 					<img
-						src={{data}.data[place].img}
-						alt='Image of ${ place}'
+						src={{ data }.data[place].img}
+						alt={"Image of " + place}
 						className='destination-card-img'
 					/>
 				</div>
@@ -36,7 +27,6 @@ const Destination = () => {
 								id='Moon'
 								onClick={() => {
 									setPlace("Moon");
-									// document.getElementById("Moon").classList.add("active")
 								}}
 							>
 								MOON

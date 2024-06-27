@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import checkURL from "../CheckURL";
+import logo from "../../Assets/shared/logo.svg";
 
 setInterval(() => {
 	checkURL();
@@ -12,7 +13,8 @@ const Navbar = () => {
 	return (
 		<div className='navbar-container'>
 			<div className='navbar-half'>
-				<hr/>
+				<img src={logo}></img>
+				<hr />
 			</div>
 			<div className='navbar-half bg-grey'>
 				<button className='navbar-btn' id='home' onClick={() => Navigate("/")}>

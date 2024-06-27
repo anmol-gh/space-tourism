@@ -6,6 +6,8 @@
 	flex-direction: row;
 	width: 100vw;
 	box-sizing: border-box;
+	background-color: transparent;
+	z-index: 1000;
 }
 
 /* To be Changed */

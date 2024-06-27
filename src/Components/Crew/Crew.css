@@ -1,0 +1,38 @@
+.crew-container {
+	height: 85vh;
+	width: 100vw;
+}
+
+.crew-para {
+	font-family: "Barlow";
+	box-sizing: border-box;
+	font-weight: 400;
+	font-size: 24px;
+	padding-top: 5vh;
+	padding-left: 10rem;
+	padding-bottom: 5vh;
+}
+
+.crew-para-span {
+	color: grey;
+    font-weight: 800;
+    transition: ease-in-out;
+    padding-right : 5px;
+}
+
+.crew-card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height : 70vh;
+    width : 100%;
+}
+
+.crew-card {
+	width: 50%;
+	box-sizing: border-box;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}

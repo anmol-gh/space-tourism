@@ -1,16 +1,23 @@
 .destination-container {
 	height: 85vh;
 	width: 100vw;
+	
 }
 
 .destination-para {
 	font-family: "Barlow";
 	box-sizing: border-box;
-	font-weight: 200;
-	font-size: 18px;
+	font-weight: 400;
+	font-size: 24px;
 	padding-top: 5vh;
-	padding-left: 5vh;
+	padding-left: 10rem;
 	padding-bottom: 5vh;
+}
+
+.destination-para-span {
+	color: grey;
+	font-weight: 800;
+	padding-right : 5px; 
 }
 
 .destination-card-container {
@@ -22,7 +29,6 @@
 }
 
 .destination-card {
-	box-sizing: border-box;
 	width: 50%;
 	box-sizing: border-box;
 	display: flex;
@@ -38,8 +44,6 @@
 }
 
 .destination-card-img {
-	/* width: 480px;
-	height: 480px; */
 	width: 30vw;
 	height: 30vw;
 }
@@ -63,12 +67,12 @@
 	font-family: "Barlow";
 	border: none;
 	font-size: 18px;
-	border-bottom: none 2px solid;
+	border-bottom: #ffffff00 2px solid;
 }
 
 .card-btn:hover {
 	border-bottom: #ffffff 2px solid;
-	transition: 50ms;
+	transition: 300ms;
 }
 
 .card-heading {
@@ -81,6 +85,7 @@
 
 .card-desc {
 	font-family: "Barlow";
+    transition: ease-in;
 	font-weight: 200;
 	font-size: 18px;
 	padding-bottom: 3vh;
