@@ -1,0 +1,100 @@
+.tech-container {
+	height: 85vh;
+	width: 100vw;
+}
+
+.tech-para {
+	font-family: "Barlow";
+	box-sizing: border-box;
+	font-weight: 400;
+	font-size: 24px;
+	padding-top: 5vh;
+	padding-left: 10rem;
+	padding-bottom: 5vh;
+}
+
+.tech-para-span {
+	color: grey;
+	font-weight: 800;
+	transition: ease-in-out;
+	padding-right: 5px;
+}
+
+.tech-card-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 70vh;
+	width: 100%;
+}
+
+.tech-card {
+	display: flex;
+	flex-direction: column;
+	padding-top: 5rem;
+	width: 50%;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.tech-title {
+	font-family: "Bellefair";
+	font-size: 24px;
+	color: grey;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding-bottom: 2vh;
+}
+
+.tech-name {
+	font-family: "Bellefair";
+	font-size: 36px;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 2vh;
+}
+
+.tech-desc {
+	font-family: "Barlow";
+	font-size: 16px;
+	font-weight: 200;
+	padding-bottom: 2vh;
+}
+
+.tech-card-img {
+	animation: transitionIN 0.75s;
+	margin-bottom: 3rem;
+	max-height: 100%;
+	max-width: auto;
+}
+
+.tech-deets {
+	width: 30vw;
+	height: 30vw;
+	padding-top: 5rem;
+}
+
+.tech-btns {
+	padding-right: 2rem;
+}
+
+.tech-btn {
+	margin-bottom: 1rem;
+	font-family: "Barlow";
+	cursor: pointer;
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+	background-color: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+.tech-btn:hover {
+	background-color: white;
+	color: black;
+	transition: 500ms;
+}

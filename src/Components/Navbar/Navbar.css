@@ -6,8 +6,6 @@
 	flex-direction: row;
 	width: 100vw;
 	box-sizing: border-box;
-	background-color: transparent;
-	z-index: 1000;
 }
 
 /* To be Changed */
@@ -47,7 +45,7 @@ hr {
 	font-size: 16px;
 	white-space: nowrap;
 	box-sizing: border-box;
-
+	text-transform: uppercase;
 	/* border-bottom: #ffffff00 2px solid; */
 }
 
