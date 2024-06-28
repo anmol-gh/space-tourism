@@ -42,7 +42,7 @@
 
 .tech-title {
 	font-family: "Bellefair";
-	font-size: 24px;
+	font-size: 28px;
 	color: grey;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -51,8 +51,8 @@
 
 .tech-name {
 	font-family: "Bellefair";
-	font-size: 36px;
-	font-weight: 800;
+	font-size: 40px;
+	font-weight: 400;
 	text-transform: uppercase;
 	padding-bottom: 2vh;
 }
