@@ -98,3 +98,11 @@
 	color: black;
 	transition: 500ms;
 }
+
+
+@media (max-width: 769px) {.tech-para {
+		padding-top: 3vh;
+		padding-bottom: 3vh;
+		font-size: 16px;
+		padding-left: 7rem;
+	}}

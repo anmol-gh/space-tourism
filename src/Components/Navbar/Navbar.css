@@ -46,7 +46,6 @@ hr {
 	white-space: nowrap;
 	box-sizing: border-box;
 	text-transform: uppercase;
-	/* border-bottom: #ffffff00 2px solid; */
 }
 
 .navbar-half button:hover {
@@ -56,4 +55,20 @@ hr {
 
 .navbar-half.bg-grey {
 	background-color: rgba(141, 141, 141, 0.308);
+}
+
+/* Media Queries for Tablet*/
+
+@media (max-width: 769px) {
+	hr {
+		display: none;
+	}
+
+	.navbar-half {
+		width : 15%;
+	}
+	.bg-grey {
+		width : 85%;
+	}
+
 }

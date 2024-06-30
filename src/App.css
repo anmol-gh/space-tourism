@@ -10,7 +10,7 @@
 	color: #ffffff;
 	width: 100vw;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 }
 
 @keyframes transitionIN {

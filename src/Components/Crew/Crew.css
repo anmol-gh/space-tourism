@@ -90,3 +90,48 @@
 	max-height: 100%;
 	max-width: auto;
 }
+
+@media (max-width: 769px) {
+	.crew-card-container {
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+		height: 76vh;
+		justify-content: space-between;
+	}
+
+	.crew-card {
+		width : 60%;
+	}
+	.crew-card-details {
+		justify-content: center;
+		align-items: center;
+		padding-top: 1rem;
+		width: 100%;
+	}
+	.crew-para {
+		padding-top: 3vh;
+		padding-bottom: 3vh;
+		font-size: 16px;
+		padding-left: 7rem;
+	}
+
+	.crew-title {
+		font-size : 18px;
+	}
+	.crew-name {
+		font-size: 24px;
+	}
+
+	.crew-desc {
+		text-align: center;
+	}
+	.crew-buttons {
+		padding-top: 0;
+	}
+
+	.crew-card-img {
+		max-height: 100%;
+		max-width: auto;
+	}
+}
