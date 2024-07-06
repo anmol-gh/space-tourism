@@ -5,6 +5,8 @@ const checkURL = () => {
     const crew = document.getElementById("crew");
     const technology = document.getElementById("technology");
     const elements = [home, destination, crew, technology];
+    // const width = screen.width;
+    // console.log(width);
 
     const root = document.getElementById("root");
     if (url.includes("destination")) {

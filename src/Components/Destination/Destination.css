@@ -48,13 +48,12 @@
 }
 
 .card-details {
-	width: 30vw;
+	width: 70%;
 	height: 30vw;
 }
 
 .card-nav {
 	display: flex;
-	justify-content: space-between;
 }
 
 .card-btn {
@@ -97,6 +96,11 @@
 	padding-right: 5vw;
 }
 
+.destination-hr {
+	width: 100%;
+	margin-bottom: 3vh;
+}
+
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
@@ -104,8 +108,8 @@
 		flex-direction: column;
 		justify-items: center;
 		align-items: center;
-		height : 76vh;
-		justify-content: space-between;
+		height: 76vh;
+		justify-content: space-around;
 	}
 
 	.destination-para {
@@ -120,6 +124,7 @@
 
 	.card-nav {
 		width: 90%;
+		justify-content: space-between;
 	}
 
 	.card-details {
@@ -144,7 +149,7 @@
 		width: 90%;
 	}
 
-	.card-desc { 
+	.card-desc {
 		text-align: center;
 		font-size: 14px;
 	}

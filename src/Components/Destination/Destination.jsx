@@ -61,6 +61,7 @@ const Destination = () => {
 						</div>
 						<h1 className='card-heading'>{{ data }.data[place].title} </h1>
 						<p className='card-desc'> {{ data }.data[place].description}</p>
+						<hr className="destination-hr"/>
 						<div className='card-footer'>
 							<div>
 								<h6> AVG. DISTANCE</h6>

@@ -30,12 +30,10 @@
 
 .tech-card {
 	display: flex;
-	flex-direction: column;
-	padding-top: 5rem;
+	flex-direction: row;
+	padding: 5rem;
 	width: 50%;
 	box-sizing: border-box;
-	display: flex;
-	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -65,16 +63,18 @@
 }
 
 .tech-card-img {
-	animation: transitionIN 0.75s;
 	margin-bottom: 3rem;
 	max-height: 100%;
 	max-width: auto;
 }
 
 .tech-deets {
-	width: 30vw;
-	height: 30vw;
-	padding-top: 5rem;
+	padding: 6rem;
+}
+
+.tech-details {
+	display: flex;
+	flex-direction: row;
 }
 
 .tech-btns {
@@ -85,8 +85,8 @@
 	margin-bottom: 1rem;
 	font-family: "Barlow";
 	cursor: pointer;
-	height: 5rem;
-	width: 5rem;
+	height: 4rem;
+	width: 4rem;
 	border-radius: 50%;
 	background-color: transparent;
 	border: 1px solid white;
@@ -99,10 +99,49 @@
 	transition: 500ms;
 }
 
+/* Media Queries for Tablet*/
 
-@media (max-width: 769px) {.tech-para {
+@media (max-width: 769px) {
+
+	.tech-para {
 		padding-top: 3vh;
 		padding-bottom: 3vh;
 		font-size: 16px;
 		padding-left: 7rem;
-	}}
+	}
+	.tech-card-container {
+		flex-direction: column-reverse;
+		height: 76vh;
+		justify-content: center;
+		align-items: center;
+	}
+	.tech-card {
+		width: 70%;
+	}
+	.tech-title {
+		font-size: 24px;
+	}
+
+	.tech-btn {
+		margin-left: 1rem;
+		height: 3.5rem;
+		width: 3.5rem;
+	}
+	.tech-card-img {
+		box-sizing: content-box;
+		height: 10vh;
+		width: auto;
+		background-image: url("https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-launch-vehicle-landscape.jpg");
+	}
+	.tech-deets {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.tech-card-details {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+}

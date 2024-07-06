@@ -60,15 +60,14 @@ hr {
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
-	hr {
+	.navbar-hr {
 		display: none;
 	}
 
 	.navbar-half {
-		width : 15%;
+		width: 15%;
 	}
 	.bg-grey {
-		width : 85%;
+		width: 85%;
 	}
-
 }

@@ -91,6 +91,8 @@
 	max-width: auto;
 }
 
+/* Media Queries for Tablet*/
+
 @media (max-width: 769px) {
 	.crew-card-container {
 		flex-direction: column;
@@ -101,7 +103,7 @@
 	}
 
 	.crew-card {
-		width : 60%;
+		width: 60%;
 	}
 	.crew-card-details {
 		justify-content: center;
@@ -117,7 +119,7 @@
 	}
 
 	.crew-title {
-		font-size : 18px;
+		font-size: 18px;
 	}
 	.crew-name {
 		font-size: 24px;

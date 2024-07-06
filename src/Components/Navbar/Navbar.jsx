@@ -14,7 +14,7 @@ const Navbar = () => {
 		<div className='navbar-container'>
 			<div className='navbar-half'>
 				<img src={logo}></img>
-				<hr />
+				<hr className="navbar-hr"/>
 			</div>
 			<div className='navbar-half bg-grey'>
 				<button className='navbar-btn' id='home' onClick={() => Navigate("/")}>
@@ -32,7 +32,7 @@ const Navbar = () => {
 					id='crew'
 					onClick={() => Navigate("/crew")}
 				>
-					02 &nbsp;Crew
+					02 &nbsp;Crew	
 				</button>
 				<button
 					className='navbar-btn'
