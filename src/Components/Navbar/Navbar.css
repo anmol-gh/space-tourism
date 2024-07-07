@@ -71,3 +71,17 @@ hr {
 		width: 85%;
 	}
 }
+
+/* Media Queries for Mobile*/
+
+@media (max-width: 426px) {
+	.navbar-half {
+		width: 20%;
+	}
+	.navbar-half button {
+		font-size: 12px;
+	}
+	.bg-grey {
+		width: 80%;
+	}
+}

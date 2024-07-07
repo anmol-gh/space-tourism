@@ -11,7 +11,7 @@ setInterval(() => {
 const Navbar = () => {
 	const Navigate = useNavigate();
 	return (
-		<div className='navbar-container'>
+		<nav className='navbar-container'>
 			<div className='navbar-half'>
 				<img src={logo}></img>
 				<hr className="navbar-hr"/>
@@ -42,7 +42,7 @@ const Navbar = () => {
 					03 &nbsp;Technology
 				</button>
 			</div>
-		</div>
+		</nav>
 	);
 };
 

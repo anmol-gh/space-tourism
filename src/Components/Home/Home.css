@@ -87,3 +87,28 @@
 		height: 150px;
 	}
 }
+
+/* Media Queries for Mobile*/
+
+@media (max-width: 426px) {
+	.home-textxl {
+		font-size: 100px;
+	}
+
+	.home-textmedium {
+		font-size: 20px;
+	}
+
+	.home-textsmall {
+		font-size: 14px;
+		padding: 0 1rem 0 1rem;
+	}
+
+	.home-btn {
+		width: 100px;
+		height: 100px;
+		font-size: 20px;
+		margin-top: 5rem;
+	}
+
+}
