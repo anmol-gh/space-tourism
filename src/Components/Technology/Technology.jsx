@@ -1,10 +1,21 @@
 import React from "react";
 import "./Technology.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import techData from "./TechnologyData.js";
 
 const Technology = () => {
 	const [tech, setTech] = useState("Launch");
+	const [isMobile, setIsMobile] = useState(window.innerWidth <= 425);
+	useEffect(() => {
+		const handleResize = () => {
+			setIsMobile(window.innerWidth <= 425);
+		};
+
+		window.addEventListener("resize", handleResize);
+		return () => {
+			window.removeEventListener("resize", handleResize);
+		};
+	}, []);
 	return (
 		<div className='tech-container'>
 			<p className='tech-para'>
@@ -54,7 +65,7 @@ const Technology = () => {
 				<div className='tech-card'>
 					<img
 						className='tech-card-img'
-						src={{ techData }.techData[tech].image}
+						src={isMobile ? techData[tech].mobile : techData[tech].image}
 						alt={"Image of " + tech}
 					/>
 				</div>
