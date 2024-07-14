@@ -54,6 +54,7 @@ hr {
 
 .navbar-half.bg-grey {
 	background-color: rgba(141, 141, 141, 0.308);
+	backdrop-filter: blur(10px);
 }
 
 /* Media Queries for Tablet*/
