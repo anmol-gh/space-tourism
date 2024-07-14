@@ -104,7 +104,13 @@
 
 	.crew-card {
 		width: 60%;
+		height : 60%;
 	}
+
+	.crew-card:first-child{
+		height : 40%;
+	}
+
 	.crew-card-details {
 		justify-content: center;
 		align-items: center;
@@ -114,8 +120,9 @@
 	.crew-para {
 		padding-top: 3vh;
 		padding-bottom: 3vh;
+		padding-left: 5rem;
+		padding-right: 5rem;
 		font-size: 16px;
-		padding-left: 7rem;
 	}
 
 	.crew-title {
@@ -135,5 +142,12 @@
 	.crew-card-img {
 		max-height: 100%;
 		max-width: auto;
+		margin-bottom : 0;
 	}
+}
+
+/* Media Queries for Phone */
+
+@media (max-width : 426px) {
+	
 }

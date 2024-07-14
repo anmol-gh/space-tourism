@@ -59,12 +59,16 @@ hr {
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
+	.navbar-container {
+		height : 13vh;
+	}
 	.navbar-hr {
 		display: none;
 	}
 
 	.navbar-half {
 		width: 15%;
+		margin-top: 3vh;
 	}
 	.bg-grey {
 		width: 85%;

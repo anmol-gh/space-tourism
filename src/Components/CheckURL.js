@@ -6,7 +6,6 @@ const checkURL = () => {
     const technology = document.getElementById("technology");
     const elements = [home, destination, crew, technology];
     const width = window.screen.width;
-    const nav = document.querySelector(".burger-menu");
     let word = "home";
 
     const root = document.getElementById("root");

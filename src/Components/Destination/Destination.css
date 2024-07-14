@@ -119,15 +119,16 @@
 		flex-direction: column;
 		justify-items: center;
 		align-items: center;
-		height: 76vh;
+		height: 78vh;
 		justify-content: space-around;
 	}
 
 	.destination-para {
 		padding-top: 3vh;
 		padding-bottom: 3vh;
+		padding-left: 5rem;
+		padding-right : 5rem;
 		font-size: 16px;
-		padding-left: 7rem;
 	}
 	.destination-card {
 		padding: 0;

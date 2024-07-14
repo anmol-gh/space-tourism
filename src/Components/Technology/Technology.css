@@ -102,16 +102,16 @@
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
-
 	.tech-para {
 		padding-top: 3vh;
 		padding-bottom: 3vh;
+		padding-left: 5rem;
+		padding-right: 5rem;
 		font-size: 16px;
-		padding-left: 7rem;
 	}
 	.tech-card-container {
 		flex-direction: column-reverse;
-		height: 76vh;
+		height: 78vh;
 		justify-content: center;
 		align-items: center;
 	}
@@ -131,11 +131,12 @@
 		box-sizing: content-box;
 		height: 10vh;
 		width: auto;
-		background-image: url("https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-launch-vehicle-landscape.jpg");
+		/* background-image: url("https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-launch-vehicle-landscape.jpg"); */
 	}
 	.tech-deets {
 		display: flex;
 		flex-direction: column;
+		padding : 1rem;
 	}
 
 	.tech-card-details {
