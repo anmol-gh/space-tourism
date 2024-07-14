@@ -65,6 +65,10 @@
 	transition: outline 0.3s ease-in-out;
 }
 
+.br-mobile {
+	display: none;
+}
+
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
@@ -111,4 +115,11 @@
 		margin-top: 5rem;
 	}
 
+	.br-desktop {
+		display: none;
+	}
+
+	.br-mobile {
+		display: block;
+	}
 }

@@ -19,7 +19,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	box-sizing: border-box;
 }
 
 hr {
@@ -75,13 +74,21 @@ hr {
 /* Media Queries for Mobile*/
 
 @media (max-width: 426px) {
+	.navbar-container {
+		height: 10vh;
+	}
+
 	.navbar-half {
+		width: 80%;
+		margin-top: 1vh;
+	}
+	.navbar-half:first-child {
 		width: 20%;
 	}
 	.navbar-half button {
 		font-size: 12px;
 	}
-	.bg-grey {
-		width: 80%;
+	.navbar-half.bg-grey {
+		display: none;
 	}
 }

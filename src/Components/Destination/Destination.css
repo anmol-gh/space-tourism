@@ -99,7 +99,19 @@
 	width: 100%;
 	margin-bottom: 3vh;
 }
-
+.card-footer > div >h6 {
+	font-family: "Barlow Condensed";
+	letter-spacing: 2px;
+	color: gray;
+	text-transform: uppercase;
+}
+.footer-deets {
+	font-family: "Barlow";
+	color: white;
+	font-weight: lighter;
+	font-size: larger;
+	text-transform: uppercase;
+}
 /* Media Queries for Tablet*/
 
 @media (max-width: 769px) {
@@ -151,5 +163,13 @@
 	.card-desc {
 		text-align: center;
 		font-size: 14px;
+	}
+}
+
+/* Media Queries for Mobile*/
+
+@media (max-width: 426px) {
+	.destination-card {
+		width : 70%;
 	}
 }

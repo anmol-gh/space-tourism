@@ -65,11 +65,11 @@ const Destination = () => {
 						<div className='card-footer'>
 							<div>
 								<h6> AVG. DISTANCE</h6>
-								<h3>{{ data }.data[place].distance}</h3>
+								<h3 className="footer-deets">{{ data }.data[place].distance}</h3>
 							</div>
 							<div>
 								<h6> EST. TRAVEL TIME</h6>
-								<h3>{{ data }.data[place].travel}</h3>
+								<h3 className="footer-deets">{{ data }.data[place].travel}</h3>
 							</div>
 						</div>
 					</div>
