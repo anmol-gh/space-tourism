@@ -149,5 +149,28 @@
 /* Media Queries for Phone */
 
 @media (max-width : 426px) {
-	
+	.crew-card-container {
+		height: 80vh;
+	}
+
+	.crew-card { 
+		width : 80%;
+	}
+	.crew-name { 
+		font-size : 18px;
+		font-weight: 400;
+	}
+	.crew-desc {
+		font-size: 14px;
+	}
+	.crew-buttons {
+		z-index: 1;
+	}
+	.crew-btn {
+		margin: 0 1rem 0 0rem;
+	}
+	.crew-card-img{
+		padding-top : 3vh;
+		z-index : 0;
+	}
 }

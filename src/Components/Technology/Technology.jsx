@@ -29,6 +29,14 @@ const Technology = () => {
 								className='tech-btn'
 								onClick={() => {
 									setTech("Launch");
+									const image = document.querySelector(".tech-card-img");
+									if (isMobile) {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-launch-vehicle-landscape.jpg";
+									} else {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-launch-vehicle-portrait.jpg";
+									}
 								}}
 							>
 								1
@@ -37,6 +45,14 @@ const Technology = () => {
 								className='tech-btn'
 								onClick={() => {
 									setTech("Spaceport");
+									const image = document.querySelector(".tech-card-img");
+									if (isMobile) {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-spaceport-landscape.jpg";
+									} else {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-spaceport-portrait.jpg";
+									}
 								}}
 							>
 								2
@@ -45,6 +61,14 @@ const Technology = () => {
 								className='tech-btn'
 								onClick={() => {
 									setTech("Capsule");
+									const image = document.querySelector(".tech-card-img");
+									if (isMobile) {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-space-capsule-landscape.jpg";
+									} else {
+										image.src =
+											"https://raw.githubusercontent.com/anmol-gh/space-tourism/master/src/Assets/technology/image-space-capsule-portrait.jpg";
+									}
 								}}
 							>
 								3

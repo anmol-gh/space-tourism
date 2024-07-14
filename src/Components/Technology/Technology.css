@@ -111,7 +111,6 @@
 	}
 	.tech-card-container {
 		flex-direction: column-reverse;
-		height: 78vh;
 		justify-content: center;
 		align-items: center;
 	}
@@ -136,7 +135,7 @@
 	.tech-deets {
 		display: flex;
 		flex-direction: column;
-		padding : 1rem;
+		padding: 1rem;
 	}
 
 	.tech-card-details {
@@ -144,5 +143,47 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+	}
+}
+
+/* Media Queries for Mobile */
+
+@media (max-width: 426px) {
+	.tech-container {
+		height: 90vh;
+	}
+	.tech-card-container {
+		height: 80vh;
+	}
+	.tech-card:first-child {
+		padding-top: 2rem;
+	}
+
+	.tech-name {
+		font-size: 24px;
+	}
+	.tech-card-img {
+		margin-bottom: 0;
+		width: 100%;
+		height: auto;
+	}
+	.tech-card {
+		padding: 0rem;
+		width: 90%;
+	}
+	.tech-btns {
+		padding: 0;
+		align-self: center;
+	}
+	.tech-btn {
+		height: 2.5rem;
+		width: 2.5rem;
+	}
+	.tech-details {
+		flex-direction: column;
+	}
+	.tech-desc {
+		text-align: center;
+		font-size : 14px;
 	}
 }
