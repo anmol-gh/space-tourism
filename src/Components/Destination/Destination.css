@@ -99,7 +99,7 @@
 	width: 100%;
 	margin-bottom: 3vh;
 }
-.card-footer > div >h6 {
+.card-footer > div > h6 {
 	font-family: "Barlow Condensed";
 	letter-spacing: 2px;
 	color: gray;
@@ -127,7 +127,7 @@
 		padding-top: 3vh;
 		padding-bottom: 3vh;
 		padding-left: 5rem;
-		padding-right : 5rem;
+		padding-right: 5rem;
 		font-size: 16px;
 	}
 	.destination-card {
@@ -171,12 +171,15 @@
 
 @media (max-width: 426px) {
 	.destination-card {
-		width : 70%;
+		width: 70%;
 	}
 }
 
 @media (max-width: 320px) {
 	.card-btn {
-	font-size: 12px;
+		font-size: 12px;
+	}
+	.destination-para {
+		padding: 3vh 3rem;
 	}
 }
